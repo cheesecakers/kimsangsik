@@ -1,0 +1,24 @@
+.select-button {
+  width: 100%;
+  height: 64px;
+  border: 1px solid #cccccc;
+  box-sizing: border-box;
+
+  &.selected {
+    border: 1px solid #3572f3;
+  }
+
+  &__text {
+    display: flex;
+    height: 100%;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 24px;
+    font-size: 18px;
+    color: #999999;
+
+    &.selected {
+      color: #2562e0;
+    }
+  }
+}

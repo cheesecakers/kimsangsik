@@ -1,0 +1,67 @@
+.ratio-chart {
+  width: 100%;
+
+  &-tooltip {
+    display: flex;
+
+    &.left {
+      justify-content: flex-start;
+    }
+
+    &.right {
+      justify-content: flex-end;
+    }
+
+    &-img {
+      width: 40px;
+      height: 29px;
+
+      &.left {
+        background-image: url('/img-you-blue.svg');
+      }
+
+      &.right {
+        background-image: url('/img-you-black.svg');
+      }
+    }
+  }
+
+  &-line {
+    display: flex;
+    width: calc(100% - 3px);
+    height: 12px;
+    align-items: center;
+
+    &-left {
+      height: 4px;
+      background-color: #3a78fb;
+    }
+  
+    &-divider {  
+      width: 3px;
+      height: 12px;
+      background-color: #333333;
+    }
+  
+    &-right {
+      height: 4px;
+      background-color: #333333;
+    }
+  }
+
+  &-hint {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 8px;
+
+    &-left {
+      font-size: 16px;
+      color: #3572f3;
+    }
+
+    &-right {
+      font-size: 16px;
+      color: #434343;
+    }
+  }
+}

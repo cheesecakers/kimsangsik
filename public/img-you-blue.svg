@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="40" height="29" viewBox="0 0 40 29">
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#3572F3" d="M20.78 28.024L24 24h-8l3.22 4.024a1 1 0 0 0 1.56 0z"/>
+        <rect width="40" height="24" fill="#3572F3" rx="4"/>
+        <text fill="#FFF" font-family="AppleSDGothicNeo-Bold, Apple SD Gothic Neo" font-size="14" font-weight="bold">
+            <tspan x="8.45" y="16">you</tspan>
+        </text>
+    </g>
+</svg>
